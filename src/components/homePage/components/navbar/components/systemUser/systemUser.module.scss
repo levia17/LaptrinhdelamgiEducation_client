@@ -1,0 +1,24 @@
+.containerSystemUser {
+  width: 15%;
+  height: 50%;
+  .Btn {
+    width: 50%;
+    height: 100%;
+    background-color: #a6a2a2;
+    outline: none;
+    border: 1px #fff ;
+    &:hover{
+        background-color: #ffa03a;
+    }
+    &.login {
+      border-top-left-radius: 2em 2em;
+      border-bottom-left-radius: 2em 2em;
+      border-style: none solid none none;
+    }
+    &.register {
+      border-top-right-radius: 2em 2em;
+      border-bottom-right-radius: 2em 2em;
+      border-style: none solid none groove;
+    }
+  }
+}
